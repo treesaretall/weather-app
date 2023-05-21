@@ -8,29 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./develop/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 </head>
 <body>
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter City" spellcheck="false">
-            <button><img src="./develop/images/search.png"></button>
+            <button><img src="./images/search.png"></button> 
         </div>
+        
         <div class="error">Invalid City</div>
         <div class="weather">
-            <img src="./develop/images/rain.png" class="weather-icon">
+            <img src="./images/rain.png" class="weather-icon">
             <h1 class="temp">104°F</h1>
             <h2 class="city">Orlando</h2>
+            <h3 class="currentDate"></h2>
             <div class="details">
                 <div class="col">
-                    <img src="./develop/images/humidity.png">
+                    <img src="./images/humidity.png">
                     <div>
                         <p class="humidity">90%</p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="./develop/images/wind.png">
+                    <img src="./images/wind.png">
                     <div>
                         <p class="wind">10mph</p>
                         <p>Wind Speed</p>
@@ -38,7 +41,74 @@
                 </div>
             </div>
         </div>
-    </div>
-    <script src="./develop/js/script.js"></script>
+        <div class="forecast">
+            <h2 class="forecast-title">5 Day Forecast</h2>
+            <div class="forecast-details">
+                <div class="forecast-col">
+                    <div>
+                        <h4 class="day1">Mon</h4>
+                        <img src="./images/rain.png" class="forecast-weather-icon1">
+                        <p>Temp</p>
+                        <p class="forecast-temp1">98°F</p>
+                        <p>Humidity</p>                    
+                        <p class="forecast-humidity1">90%</p>
+                        <p>Wind</p>                        
+                        <p class="forecast-wind1">10mph</p>
+                    </div>
+                </div>
+                <div class="forecast-col">
+                    <div>
+                        <h4 class="day2">Tue</h4>
+                        <img src="./images/rain.png" class="forecast-weather-icon2">
+                        <p>Temp</p>
+                        <p class="forecast-temp2">98°F</p>
+                        <p>Humidity</p>                    
+                        <p class="forecast-humidity2">90%</p>
+                        <p>Wind</p>                        
+                        <p class="forecast-wind2">10mph</p>
+                    </div>
+                </div>
+                <div class="forecast-col">
+                    <div>
+                        <h4 class="day3">Wed</h4>
+                        <img src="./images/rain.png" class="forecast-weather-icon3">
+                        <p>Temp</p>
+                        <p class="forecast-temp3">98°F</p>
+                        <p>Humidity</p>                    
+                        <p class="forecast-humidity3">90%</p>
+                        <p>Wind</p>                        
+                        <p class="forecast-wind3">10mph</p>
+                    </div>
+                </div>
+                <div class="forecast-col">
+                    <div>
+                        <h4 class="day4">Thu</h4>
+                        <img src="./images/rain.png" class="forecast-weather-icon4">
+                        <p>Temp</p>
+                        <p class="forecast-temp4">98°F</p>
+                        <p>Humidity</p>                    
+                        <p class="forecast-humidity4">90%</p>
+                        <p>Wind</p>                        
+                        <p class="forecast-wind4">10mph</p>
+                    </div>
+                </div>
+                <div class="forecast-col">
+                    <div>
+                        <h4 class="day5">Fri</h4>
+                        <img src="./images/rain.png" class="forecast-weather-icon5">
+                        <p>Temp</p>
+                        <p class="forecast-temp5">98°F</p>
+                        <p>Humidity</p>                    
+                        <p class="forecast-humidity5">90%</p>
+                        <p>Wind</p>                        
+                        <p class="forecast-wind5">10mph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-history-title">Previous Searches:</div>
+        <div class="searchHistoryDropdown"></div>
+    <script src="./js/script.js"></script>
+    
 </body>
 </html>

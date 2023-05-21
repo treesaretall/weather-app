@@ -69,7 +69,9 @@ body{
     font-weight: 400;
     margin-top: -10px;
 }
-
+.currentDate{
+    font-size: 30px;
+}
 .details{
     display: flex;
     align-items: center;
@@ -100,4 +102,34 @@ body{
     font-size: 25px;
     margin-top: 10px;
     display: none;
+    color: red;
+}
+.forecast-title{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.forecast{
+    display: none;
+    padding: 30px;
+    margin: 30px auto;
+    overflow: hidden;
+    justify-content: center;
+}
+.forecast-col {
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+.forecast-col img{
+    width: 40px;
+}
+.search-history-title{
+    font-size: 25px;
+}
+.searchHistoryOption {
+    font-size: 15px;
+    margin-top: 5px;
+    display: grid;
+    cursor: pointer;
 }
