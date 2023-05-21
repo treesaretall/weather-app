@@ -1,6 +1,11 @@
 # Weather App
 This is a weather application that allows users to search for the weather conditions of a city. It utilizes the Day.js library for date and time formatting and the OpenWeatherMap API to fetch weather data. The application displays the current weather conditions including temperature, humidity, and wind speed for the searched city. Additionally, it provides the average temperature, average humidity, and average wind speed for the next 5 days.
 
+![](./images/Screenshot%202023-05-21%20at%205.39.35%20PM.png)
+
+## URL
+https://treesaretall.github.io/weather-app/
+
 ## Features
 - Search Weather: Users can enter a city name to retrieve the current weather conditions.
 - Display Current Weather: The application displays the name of the city, current date, and weather conditions including temperature, humidity, and wind speed.
