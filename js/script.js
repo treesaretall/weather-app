@@ -1,5 +1,5 @@
 const apiKey = "753f239ca28f430c26c0ed9a292317c8"
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?units=imperial&q="
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?units=imperial&q="
 const searchBox = document.querySelector('.search input')
 const searchBtn = document.querySelector('.search button')
 
